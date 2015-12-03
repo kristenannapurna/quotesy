@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @component.title %>
+</p>
+
+<p>
+  <strong>User description:</strong>
+  <%= @component.user_description %>
+</p>
+
+<p>
+  <strong>Client description:</strong>
+  <%= @component.client_description %>
+</p>
+
+<p>
+  <strong>Value hour:</strong>
+  <%= @component.value_hour %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @component.user %>
+</p>
+
+<%= link_to 'Edit', edit_component_path(@component) %> |
+<%= link_to 'Back', components_path %>

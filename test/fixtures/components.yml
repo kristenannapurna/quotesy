@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  user_description: MyText
+  client_description: MyText
+  value_hour: 1
+  user_id: 
+
+two:
+  title: MyString
+  user_description: MyText
+  client_description: MyText
+  value_hour: 1
+  user_id: 
